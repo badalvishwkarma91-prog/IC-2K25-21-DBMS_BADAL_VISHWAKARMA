@@ -4,22 +4,10 @@ Query OK, 1 row affected
 mysql> use badaldbms20;
 Database changed
 
-mysql> create table employees (
-    -> employee_id int primary key,
-    -> first_name varchar(30),
-    -> last_name varchar(30),
-    -> department_id int
-    -> );
+mysql> create table employees (employee_id int primary key,first_name varchar(30),last_name varchar(30),department_id int);
 Query OK, 0 rows affected
 
-mysql> insert into employees(employee_id,first_name,last_name,department_id)
-    -> values
-    -> (101,'Ajay','Yadav',30),
-    -> (102,'Arun','Tiwari',20),
-    -> (103,'Avni','Pathak',100),
-    -> (104,'Badal','Vishwakarma',30),
-    -> (105,'Laxmi','Patidar',50),
-    -> (106,'Rahul','Sharma',100);
+mysql> insert into employees(employee_id,first_name,last_name,department_id)values(101,'Ajay','Yadav',30),(102,'Arun','Tiwari',20),(103,'Avni','Pathak',100),(104,'Badal','Vishwakarma',30),(105,'Laxmi','Patidar',50),(106,'Rahul','Sharma',100);
 Query OK, 6 rows affected
 Records: 6  Duplicates: 0  Warnings: 0
 
