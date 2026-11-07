@@ -39,3 +39,5 @@ mysql> select * from  countries;
 |          3 | China        |         3 |
 +------------+--------------+-----------+
 3 rows in set (0.00 sec)
+
+mysql>
