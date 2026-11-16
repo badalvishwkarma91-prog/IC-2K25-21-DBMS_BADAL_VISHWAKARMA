@@ -3,7 +3,7 @@ Query OK, 1 row affected (0.02 sec)
 
 mysql> use jobdbms;
 Database changed
-mysql> create table jobs{
+mysql> create table jobs(
    
 job_title VARCHAR(50),
 min_salary DECIMAL(10,2),
